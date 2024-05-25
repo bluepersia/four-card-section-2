@@ -29,3 +29,52 @@ body {
 * :first-child {
     margin-top: 0;
 }
+
+
+
+
+/* Typography */
+
+html {
+    font-size: 15px;
+}
+
+.cmp {
+    font-family: var(--cmp-f-1);
+    line-height: 1.6;
+    color: var(--cmp-c-GrayishBlue);
+}
+
+.cmp__title, .cmp__subtitle 
+{
+    color: var(--cmp-c-VeryDarkBlue);
+    font-size: 1.6em;
+    letter-spacing: 0.004em;
+}
+
+.cmp__title {
+    font-weight: 200;
+}
+
+.cmp__subtitle {
+    font-weight: 600;
+}
+
+
+.cmp__card-title {
+    font-size: 1.33rem;
+    font-weight: 600;
+}
+
+.cmp__card-body {
+    font-size: .86rem;
+    line-height: 1.7;
+}
+
+
+@media (min-width:1000px)
+{
+    .cmp__title, .cmp__subtitle {
+        font-size: 2.4rem;
+    }
+}
