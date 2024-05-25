@@ -1,0 +1,31 @@
+:root 
+{
+    --cmp-f-1: "Poppins", sans-serif;
+
+    --cmp-c-Red: hsl(0, 78%, 62%);
+    --cmp-c-Cyan: hsl(180, 62%, 55%);
+    --cmp-c-Orange: hsl(34, 97%, 64%);
+    --cmp-c-Blue: hsl(212, 86%, 64%);
+    
+    
+    --cmp-c-VeryDarkBlue: hsl(234, 12%, 34%);
+    --cmp-c-GrayishBlue: hsl(229, 6%, 66%);
+    --cmp-c-VeryLightGray: hsl(0, 0%, 98%);
+}
+
+
+body {
+    margin:0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :last-child {
+    margin-bottom: 0;
+}
+
+* :first-child {
+    margin-top: 0;
+}
